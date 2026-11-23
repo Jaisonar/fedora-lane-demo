@@ -8,4 +8,4 @@
 
     - name: Show where this ran
       ansible.builtin.debug:
-        msg: "Ran on {{ inventory_hostname }} in groups {{ group_names }}"
+        msg: "Ran on {{ inventory_hostname }}"
